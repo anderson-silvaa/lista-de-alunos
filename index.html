@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Alunos - Notas</title>
+  </head>
+  <body>
+    <h1>Lista de Alunos</h1>
+    <form id="myForm">
+      <label for="name">Nome:</label>
+      <input type="text" id="name" name="name">
+    
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    
+      <label for="age">Idade:</label>
+      <input type="number" id="age" name="age">
+    
+      <button type="submit">Salvar</button>
+    </form>
+    
+    <div>
+      <input type="text" id="filtro" placeholder="Filtrar por nome, email ou idade">
+
+      <button type="button" id="filterButton">Filtrar</button>
+    </div>
+    
+    <table id="studentsTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Email</th>
+          <th>Idade</th>
+          <th>Nota</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    
+    
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
