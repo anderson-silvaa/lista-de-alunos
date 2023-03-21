@@ -29,7 +29,7 @@ function exibirAlunos() {
 function filtrarAlunos() {
   const termo = document.getElementById('filtro').value.toLowerCase();
   const filteredStudents = JSON.parse(localStorage.getItem('saveStudent')).filter(student => {
-    return student.name.toLowerCase().includes(termo) || student.email.toLowerCase().includes(termo) || student.age.toString().includes(termo) || student.nota.toString().includes(termo);
+    return student.name.toLowerCase().includes(termo) || student.email.toLowerCase().includes(termo) || student.age.toString().includes(termo) ||student.nota.toString().includes(termo);
   });
   const tableBody = document.querySelector('#studentsTable tbody');
   tableBody.innerHTML = '';
