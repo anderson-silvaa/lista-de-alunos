@@ -12,3 +12,5 @@
 
 - Um campo de filtro onde pode buscar aluno por qualquer dado que esteja relacionado a ele: id, nome, email, idade ou nota. 
 
+## Autor 
+Anderson Silva
