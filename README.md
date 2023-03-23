@@ -14,3 +14,6 @@
 
 ## Autor 
 Anderson Silva
+
+## Deploy
+https://lista-de-alunos.vercel.app/
